@@ -1,0 +1,125 @@
+body {
+	background: #e9ebee;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+a { color:#1176b6; }
+a:hover { text-decoration: underline; }
+
+/* --- --- HEADER --- --- */
+header {
+	background-color:#303990;
+	padding: 10px 0;
+
+}
+
+header .logo img {
+	height: 50px;
+}
+
+/* BUSCAR */
+header .buscar form input[type="text"] {
+	margin-top: 20px;
+	width: 100%;
+	background: #fff;
+	border: none;
+	font-size: 12px;
+	padding: 0 10px;
+	height: 25px;
+	line-height: 25px;
+	border-radius: 3px 0 0 3px;
+	color: #6d6d6d;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header .buscar form button {
+  margin-top: 20px;
+	width: 100%;
+	background: #fff;
+	border: none;
+	font-size: 12px;
+	padding: 0 10px;
+	height: 25px;
+	line-height: 25px;
+	border-radius: 0 3px 3px 0;
+	cursor: pointer;
+	color: #6d6d6d;
+}
+
+header .buscar form button:hover {
+
+	background: grey;
+	color: #fff;
+}
+
+
+header{
+	padding-top:0;
+	margin-top: 0;
+}
+
+header .barr {
+	padding-bottom: 10px;
+	padding-left: 0;
+}
+header .barra nav {
+	border-bottom: 1px solid #c7c8ca;
+	padding-bottom: 20px;
+
+}
+header .barra nav a {
+
+	padding: 3px;
+	font-family: 'Roboto', sans-serif;
+	color: #3d3d3d;
+
+}
+
+header .barra nav a:hover {
+	background: #f2f2f2;
+	text-decoration: none;
+}
+
+header .barra nav a i {
+	margin-right: 10px;
+}
+header .barra nav p{
+	font-family: 'Roboto',sans-serif;
+	text-align: center;
+
+}
+aside .filtros h2{
+
+	display: block;
+	font-size: 30px;
+	font-family: 'Roboto',sans-serif;
+	margin-top: 20px;
+
+}
+aside .instituto a{
+	font-family: 'Roboto',sans-serif;
+}
+aside .instituto .foto a{
+
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	overflow: hidden;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+aside.instituto .foto img {
+	width: 100%;
+}
+aside .instituto {
+	margin-top: 50px;
+  outline: 1px solid #333;
+	height: 150px;
+
+}
+aside .descripcion a{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 0;
+}

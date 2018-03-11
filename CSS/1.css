@@ -1,0 +1,10 @@
+header{
+    margin-top: 6%;
+  }
+  .buscador{
+    display: flex;
+  }
+  #input-buscador{
+    margin-left: 24%;
+    width: 640px;
+  }
