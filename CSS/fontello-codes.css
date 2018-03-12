@@ -1,6 +1,7 @@
 
 .icon-search:before { content: '\e800'; } /* '' */
 .icon-code-1:before { content: '\e801'; } /* '' */
+.icon-star:before { content: '\e802'; } /* '' */
 .icon-code:before { content: '\f121'; } /* '' */
 .icon-android:before { content: '\f17b'; } /* '' */
 .icon-linux:before { content: '\f17c'; } /* '' */

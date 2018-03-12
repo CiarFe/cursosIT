@@ -1,5 +1,5 @@
 body {
-	background: #e9ebee;
+	background: #2c3e50;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 }
@@ -58,68 +58,42 @@ header{
 	padding-top:0;
 	margin-top: 0;
 }
-
-header .barr {
-	padding-bottom: 10px;
-	padding-left: 0;
-}
-header .barra nav {
-	border-bottom: 1px solid #c7c8ca;
-	padding-bottom: 20px;
-
-}
-header .barra nav a {
-
-	padding: 3px;
-	font-family: 'Roboto', sans-serif;
-	color: #3d3d3d;
-
+#separador{ 
+	height:10px;  
+	background-color:#0a055aad; 
+  }
+ 
+section {
+	margin-top: 20px;
 }
 
-header .barra nav a:hover {
+section .box-col {
+	margin-left:20px;
+	margin-right: 20px;
 	background: #f2f2f2;
-	text-decoration: none;
+    text-align: center;
+    padding: 10px;
+	border: 1px solid #4d5061;
 }
-
-header .barra nav a i {
-	margin-right: 10px;
+section .box-col .titulo {
+	height: 30px;
 }
-header .barra nav p{
-	font-family: 'Roboto',sans-serif;
-	text-align: center;
-
+section .box-col .descripcion{
+	margin-top:5px;
 }
-aside .filtros h2{
-
-	display: block;
-	font-size: 30px;
-	font-family: 'Roboto',sans-serif;
-	margin-top: 20px;
-
-}
-aside .instituto a{
-	font-family: 'Roboto',sans-serif;
-}
-aside .instituto .foto a{
-
-	display: inline-block;
-	width: 120px;
-	height: 120px;
-	overflow: hidden;
-	border-radius: 5px;
-	margin-top: 20px;
-}
-aside.instituto .foto img {
+section .box-col .foto img{
 	width: 100%;
 }
-aside .instituto {
-	margin-top: 50px;
-  outline: 1px solid #333;
-	height: 150px;
-
-}
-aside .descripcion a{
-	display: block;
+section .box-col .foto a {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 50px;
 	margin-top: 20px;
-	margin-bottom: 0;
 }
+
+section .box-col:hover{
+	-webkit-transform:scale(1.1);
+	-webkit-transition:-webkit-transform 0.8s ease 0.1s; /*0.6 dura el efecto 0.5 tarda en arranca*/
+ }
